@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Percorsi Sciamanici</title>
+  <meta name="description" content="Percorsi e pratiche a contatto con la natura. Workshops, cerchi e percorsi individuali." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-inter antialiased">
+  <header class="bg-white/80 backdrop-blur sticky top-0 z-20">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="https://source.unsplash.com/64x64/?leaf" alt="logo" class="w-10 h-10 rounded-md object-cover">
+        <span class="font-playfair text-xl">Percorsi Sciamanici</span>
+      </a>
+      <nav class="flex items-center gap-4">
+        <a href="index.html" class="text-slate-700 hover:text-violet-600">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-violet-600">Chi sono</a>
+        <a href="services.html" class="text-slate-700 hover:text-violet-600">Servizi</a>
+        <a href="contact.html" class="text-slate-700 hover:text-violet-600">Contatti</a>
+        <a href="index_en.html" class="ml-4 px-3 py-1 border rounded text-sm">EN</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto">
+    <section class="relative">
+      <img src="https://source.unsplash.com/1600x600/?forest,meditation" alt="hero" class="w-full h-72 md:h-96 object-cover rounded-b-lg">
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="text-center text-white px-6">
+          <h1 class="text-3xl md:text-5xl font-playfair drop-shadow-lg">Rituali, Percorsi, Riscoperta</h1>
+          <p class="mt-4 text-lg md:text-xl drop-shadow">Percorsi esperienziali e workshop per connettersi con sé e con la natura.</p>
+          <div class="mt-6 flex justify-center gap-4">
+            <a href="services.html" class="bg-violet-600 text-white px-6 py-2 rounded">Scopri i servizi</a>
+            <a href="contact.html" class="bg-white/90 text-teal-700 px-6 py-2 rounded">Contattami</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-6 mt-10 px-6">
+      <article class="bg-white rounded-lg p-6 shadow">
+        <h3 class="font-semibold mb-2">Workshop in natura</h3>
+        <p class="text-slate-600">Incontri guidati per esplorare pratiche esperienziali in piccoli gruppi.</p>
+      </article>
+      <article class="bg-white rounded-lg p-6 shadow">
+        <h3 class="font-semibold mb-2">Percorsi individuali</h3>
+        <p class="text-slate-600">Sessioni personalizzate per lavoro interiore e accompagnamento. </p>
+      </article>
+      <article class="bg-white rounded-lg p-6 shadow">
+        <h3 class="font-semibold mb-2">Cerchi e rituali</h3>
+        <p class="text-slate-600">Cerimonie e incontri collettivi con attenzione alla sicurezza emotiva e al consenso.</p>
+      </article>
+    </section>
+
+    <section class="mt-12 px-6 pb-16">
+      <div class="bg-gradient-to-r from-violet-50 to-white p-8 rounded-lg">
+        <h2 class="text-2xl font-playfair mb-3">Pronto a esplorare?</h2>
+        <p class="text-slate-600">Contattami per informazioni sui prossimi incontri o per un colloquio conoscitivo.</p>
+        <div class="mt-4">
+          <a href="contact.html" class="inline-block bg-violet-600 text-white px-5 py-2 rounded">Invia un messaggio</a>
+          <a href="services.html" class="inline-block ml-3 px-5 py-2 border rounded">Dettagli servizi</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-8">
+    <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-slate-500 flex justify-between">
+      <div>© <span id="year-it"></span> Percorsi Sciamanici</div>
+      <div><a href="index_en.html" class="text-slate-600 hover:text-violet-600">English</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year-it').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

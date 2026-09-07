@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chi sono — Percorsi Sciamanici</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <header class="bg-white/80 sticky top-0">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-playfair text-xl">Percorsi Sciamanici</a>
+      <nav class="flex items-center gap-4">
+        <a href="index.html" class="text-slate-700 hover:text-violet-600">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-violet-600">Chi sono</a>
+        <a href="services.html" class="text-slate-700 hover:text-violet-600">Servizi</a>
+        <a href="contact.html" class="text-slate-700 hover:text-violet-600">Contatti</a>
+        <a href="about_en.html" class="ml-4 px-3 py-1 border rounded text-sm">EN</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16">
+    <article class="bg-white p-8 rounded-lg shadow">
+      <h1 class="text-3xl font-playfair mb-4">Chi sono</h1>
+      <p class="text-slate-600 mb-4">Sono una persona che accompagna percorsi esperienziali in natura, con attenzione al benessere emotivo e al rispetto delle tradizioni. Questo testo è un segnaposto: fornisci la tua biografia reale e la inserirò al suo posto.</p>
+      <h2 class="text-xl font-semibold mt-6 mb-2">Approccio</h2>
+      <p class="text-slate-600">Lavoro con piccoli gruppi e sedute individuali, privilegiando pratiche sicure e condivise. Ogni percorso è adattato alla persona.</p>
+    </article>
+  </main>
+
+  <footer class="bg-white border-t">
+    <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-slate-500">
+      © <span id="year-about-it"></span> Percorsi Sciamanici — <a href="about_en.html" class="text-slate-600">English</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year-about-it').textContent = new Date().getFullYear();</script>
+</body>
+</html>

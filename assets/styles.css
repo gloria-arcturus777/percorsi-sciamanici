@@ -1,0 +1,18 @@
+/* assets/styles.css */
+/* Font utilities */
+:root { --playfair: "Playfair Display", serif; --inter: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.font-playfair { font-family: var(--playfair); }
+.font-inter { font-family: var(--inter); }
+
+/* Palette: lilla (violet) e verde acqua (teal) - piccole personalizzazioni */
+:root {
+  --accent-lilac: #7c3aed; /* violet-600 */
+  --accent-aqua: #14b8a6;  /* teal-500 */
+}
+
+/* Small visual tweaks */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Utility classes for custom accents if needed */
+.btn-lilac { background-color: var(--accent-lilac); color: white; }
+.text-aqua { color: var(--accent-aqua); }
