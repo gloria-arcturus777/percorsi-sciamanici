@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- assets/images/healing-hands.svg - simple healing hands illustration -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Healing hands illustration">
+  <defs>
+    <linearGradient id="hg" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc" />
+  <g transform="translate(100,80)">
+    <!-- left hand -->
+    <path d="M120 320 q-30 -80 -10 -140 q20 -60 70 -80 q60 -24 100 20 q30 34 10 90 q-20 56 -60 110 q-30 40 -110 40 z" fill="#fff" stroke="#0f172a" stroke-opacity="0.08" />
+    <!-- right hand mirrored -->
+    <path d="M660 320 q30 -80 10 -140 q-20 -60 -70 -80 q-60 -24 -100 20 q-30 34 -10 90 q20 56 60 110 q30 40 110 40 z" fill="#fff" stroke="#0f172a" stroke-opacity="0.08" />
+    <!-- energy aura between hands -->
+    <g transform="translate(200,30)">
+      <ellipse cx="200" cy="200" rx="220" ry="120" fill="url(#hg)" opacity="0.14" />
+      <circle cx="200" cy="200" r="60" fill="url(#hg)" opacity="0.95" />
+    </g>
+    <text x="280" y="520" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0f172a" opacity="0.6">Healing hands — subtle energy</text>
+  </g>
+</svg>
