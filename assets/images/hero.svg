@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- assets/images/hero.svg - stylized hero illustration for header (1600x600) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-label="Hero illustration">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#f5f3ff" />
+      <stop offset="1" stop-color="#eefffb" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g2)" />
+  <!-- soft vignette -->
+  <ellipse cx="800" cy="300" rx="700" ry="220" fill="url(#g1)" opacity="0.08" />
+
+  <!-- stylized mountains/trees line art -->
+  <g transform="translate(0,80)" fill="none" stroke="#0f172a" stroke-opacity="0.12" stroke-width="2">
+    <path d="M0 380 L160 300 L320 380 L480 240 L640 380 L800 200 L960 360 L1120 260 L1280 380 L1440 300 L1600 380" />
+  </g>
+
+  <!-- central mystical figure (simple circle + lines) -->
+  <g transform="translate(760,180)">
+    <circle cx="80" cy="80" r="70" fill="url(#g1)" opacity="0.95" />
+    <path d="M80 30 v40" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.9" />
+    <path d="M40 100 q40 30 80 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.9" />
+  </g>
+
+  <!-- subtle decorative moons and stars -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="1300" cy="80" r="6" />
+    <circle cx="1320" cy="100" r="3" />
+    <circle cx="1360" cy="60" r="4" />
+  </g>
+
+  <!-- accessible text as fallback -->
+  <text x="50" y="550" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0f172a" opacity="0.6">Percorsi Sciamanici — illustrazione</text>
+</svg>

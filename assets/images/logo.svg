@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- assets/images/logo.svg - simple stylized leaf logo (lilac + aqua) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Logo">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="10" fill="#fff" />
+  <g transform="translate(8 8)">
+    <path d="M24 0c-6 0-12 6-12 12 0 10 12 20 12 20s12-10 12-20C36 6 30 0 24 0z" fill="url(#lg)"/>
+    <path d="M18 10c2-1 6-1 8 1" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
